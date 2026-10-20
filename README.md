@@ -26,16 +26,12 @@ The notes are designed for learning and revision. They are not a substitute for 
 | Continuous delivery and GitOps | Jenkins, Argo CD & Helm | Pipelines, deployment strategies, chart-based releases, and Git-driven operations |
 | Observability | Prometheus & Grafana | Metrics, scraping, queries, dashboards, and alerting fundamentals |
 
-### Planned topic layout
+### Example Planned topic layout
 
 ```text
 devops-learning-notes/
-├── shell-scripting/
-│   ├── 01-variables.md
-│   ├── 02-conditions.md
-│   ├── 03-loops.md
-│   ├── 04-functions.md
-│   ├── 05-arrays.md
+├── shell-script/
+│   ├── variables.md
 │   ├── scripts/
 │   └── README.md
 ├── linux/
@@ -50,7 +46,7 @@ devops-learning-notes/
 etc......
 ```
 
-Each topic is organized into focused Markdown notes. The Shell Scripting tree shows one example of how a topic can be broken into lessons and practical scripts.
+Each topic is organized into focused Markdown notes. The `shell-script/` folder is the first topic being developed; its README tracks the planned lessons and links to notes as they are added.
 
 ## What each topic covers
 
@@ -64,7 +60,8 @@ Each topic is organized into focused Markdown notes. The Shell Scripting tree sh
 - **Jenkins:** pipelines, Jenkinsfiles, agents, credentials, build stages, and delivery workflows.
 - **Argo CD & Helm:** charts, values, releases, declarative application delivery, and GitOps workflows.
 - **Prometheus & Grafana:** metrics, exporters, PromQL fundamentals, dashboards, and alert rules.
-
+- **AIops**
+- **MLOps**
 ## Suggested format for a note
 
 Keep each note focused on one concept or task. Where relevant, use this outline:
@@ -90,6 +87,6 @@ Keep each note focused on one concept or task. Where relevant, use this outline:
 
 - [devops-hands-on-labs](../devops-hands-on-labs/README.md) — practice-oriented labs.
 - [devops-real-world-projects](../devops-real-world-projects/README.md) — end-to-end project work.
-- [devops-troubleshooting-guides](../devops-troubleshooting-guides/README.md) — symptom-led troubleshooting references.
+- [devops-troubleshooting-guides](https://github.com/Saikiran-Panuganti/devops-troubleshooting-guides) — symptom-led troubleshooting references.
 
 These repositories complement the notes: learn the concepts here, apply them in labs and projects, and use troubleshooting guides when diagnosing issues.
