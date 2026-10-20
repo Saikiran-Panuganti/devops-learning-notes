@@ -7,7 +7,7 @@ A **shell** is a command-line program that acts as an interface between a user a
 Examples of shells include Bash, Zsh, Fish, and PowerShell.
 ## How a shell works
 
-![How a shell works](./how-a-shell-works.png)
+![How a shell works](https://github.com/Saikiran-Panuganti/Images/blob/main/shell-script/How%20a%20Shell%20Works%20Infographic.png)
 
 ## What is Bash scripting?
 
