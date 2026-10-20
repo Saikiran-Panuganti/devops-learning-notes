@@ -16,14 +16,23 @@ NAME="value"
 
 ## Expansion
 
-Use `$NAME` or `${NAME}` to access a variable's value.
+Use `$NAME` or `${NAME}` to access a variable's value:
 
 ```bash
-echo "$NAME"
-echo "${NAME}_backup"
+USER="devops"
+
+echo "$USER"
+echo "${USER}_team"
 ```
 
-Braces mark the end of a variable name when adjoining text could be mistaken as part of its name.
+Output:
+
+```text
+devops
+devops_team
+```
+
+Braces clearly mark where the variable name ends. Without braces, `$USER_team` refers to a different variable named `USER_team`, not the value of `USER` followed by `_team`.
 
 ## Quoting
 
@@ -31,23 +40,6 @@ Braces mark the end of a variable name when adjoining text could be mistaken as 
 - Single quotes (`'$NAME'`) preserve the text literally; variables are not expanded.
 - Quote variable expansions by default to prevent word splitting and pathname expansion.
 
-## Values and types
-
-Bash variables do not have declared data types. They hold text; the operation using a value determines how it is interpreted. Bash arithmetic supports integers:
-
-```bash
-COUNT=$((COUNT + 1))
-```
-
-## Common special variables
-
-| Variable | Meaning |
-| --- | --- |
-| `$0` | Script name or invocation path |
-| `$1`, `$2`, ... | Positional arguments |
-| `$#` | Number of positional arguments |
-| `"$@"` | All positional arguments, kept as separate values when quoted |
-| `$?` | Exit status of the most recently completed command |
 
 ## Remember
 
