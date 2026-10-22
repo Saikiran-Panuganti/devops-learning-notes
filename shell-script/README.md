@@ -15,7 +15,7 @@ This folder contains concise notes for learning and revising Bash scripting conc
 | 5 | Data types and values | Planned |
 | 6 | Input, output, and redirection | Planned |
 | 7 | Quoting and expansions | Planned |
-| 8 | Conditions and tests | Planned |
+| 8 | [Conditions and tests](./4.conditions/conditions-and-types.md) | Available |
 | 9 | Loops | Planned |
 | 10 | Functions and scope | Planned |
 | 11 | Error handling | Planned |
